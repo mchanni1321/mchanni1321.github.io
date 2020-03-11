@@ -1,0 +1,127 @@
+#main-heading {
+    color: #1e2f6e;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    line-height: 2.5;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 3s steps(15);
+    width: 22ch;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 12ch;
+    }
+
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    top: 5px;
+}
+
+#intro {
+    position: relative;
+    top: 30px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: #a2b1de;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 15px;
+    box-shadow: 5px 10px 10px 5px #b959d9;
+}
+
+#top {
+   text-align: center;
+}
+
+.col-md-4 {
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.search, .in-the-know, #url-parser, #twitter-client, #flix, #top {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#featured-projects, #url-parser, #twitter-client, #flix {
+    border: 2px solid black;
+    /*background-color: #a2b1de;*/
+    background-color: #a5bdd6;
+    box-shadow: 5px 10px 10px 5px #b959d9;
+
+}
+
+#contacts {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info {
+    font-family: 'Francois One', sans-serif;
+    color: #1e2f6e;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #1e2f6e;
+}
+
+.contact-info a:hover {
+    color: #207ffa;
+}
+
+span {
+    margin: 0 auto;
+}
+
+#top a {
+    text-decoration: none;
+    color: black;
+}
+
+#top a:hover {
+    color: #207ffa;
+}
+
+#featured, #additional-projects {
+    color: #1e2f6e;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    line-height: 2.5;
+    margin: 0 auto;
+}
+
+
+footer {
+    font-size: 14px;
+}
+
+.nav-item {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+nav ul li a:hover {
+    color: #1e2f6e !important;
+}
+
+.navbar-brand {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    /*background-color: #c4aaf0;*/
+    background-color: #c6ace3;
+}
+
+
