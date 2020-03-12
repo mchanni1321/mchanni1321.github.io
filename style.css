@@ -6,8 +6,8 @@
     margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
-    animation: type 3s steps(15);
-    width: 22ch;
+    animation: type 3s steps(12);
+    width: 12ch;
 }
 
 @keyframes type {
